@@ -3,7 +3,7 @@ import { LoginSocialFacebook } from 'reactjs-social-login';
 import { FacebookLoginButton } from 'react-social-login-buttons';
 
 const Login = ({ setUser }) => {
-    const REACT_APP_FACEBOOK_APP_ID = "841185197910982";
+    const REACT_APP_FACEBOOK_APP_ID = "437934689217275";
 
     const handleLogin = (response) => {
         setUser(response.data);
